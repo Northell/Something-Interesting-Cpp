@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\code\в процессе\the salute\the salute</FILEPATH>
+      <FILENAME>sfml.cpp</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'SFML::isMenu' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>SFML::{ctor}</FUNCTION>
+    <DECORATED>??0SFML@@QEAA@XZ</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\code\в процессе\the salute\the salute</FILEPATH>
+      <FILENAME>sfml.cpp</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'SFML::menuNum' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>SFML::{ctor}</FUNCTION>
+    <DECORATED>??0SFML@@QEAA@XZ</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
