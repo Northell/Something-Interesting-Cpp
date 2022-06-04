@@ -1,0 +1,41 @@
+﻿Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: float __thiscall sf::Time::asSeconds(void)const " (?asSeconds@Time@sf@@QBEMXZ) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall sf::Clock::Clock(void)" (??0Clock@sf@@QAE@XZ) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: class sf::Time __thiscall sf::Clock::getElapsedTime(void)const " (?getElapsedTime@Clock@sf@@QBE?AVTime@2@XZ) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: class sf::Time __thiscall sf::Clock::restart(void)" (?restart@Clock@sf@@QAE?AVTime@2@XZ) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall sf::String::String(char const *,class std::locale const &)" (??0String@sf@@QAE@PBDABVlocale@std@@@Z) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall sf::String::String(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::locale const &)" (??0String@sf@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABVlocale@3@@Z) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: static bool __cdecl sf::Keyboard::isKeyPressed(enum sf::Keyboard::Key)" (?isKeyPressed@Keyboard@sf@@SA_NW4Key@12@@Z) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (??0VideoMode@sf@@QAE@III@Z) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall sf::Window::close(void)" (?close@Window@sf@@QAEXXZ) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: bool __thiscall sf::Window::isOpen(void)const " (?isOpen@Window@sf@@QBE_NXZ) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: bool __thiscall sf::Window::pollEvent(class sf::Event &)" (?pollEvent@Window@sf@@QAE_NAAVEvent@2@@Z) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall sf::Window::display(void)" (?display@Window@sf@@QAEXXZ) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: virtual __thiscall sf::Transformable::~Transformable(void)" (??1Transformable@sf@@UAE@XZ) в функции "public: virtual __thiscall sf::Sprite::~Sprite(void)" (??1Sprite@sf@@UAE@XZ).
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall sf::Transformable::setPosition(float,float)" (?setPosition@Transformable@sf@@QAEXMM@Z) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall sf::Texture::Texture(void)" (??0Texture@sf@@QAE@XZ) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall sf::Texture::~Texture(void)" (??1Texture@sf@@QAE@XZ) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: bool __thiscall sf::Texture::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class sf::Rect<int> const &)" (?loadFromFile@Texture@sf@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV?$Rect@H@2@@Z) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall sf::Font::Font(void)" (??0Font@sf@@QAE@XZ) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall sf::Font::~Font(void)" (??1Font@sf@@QAE@XZ) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: bool __thiscall sf::Font::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadFromFile@Font@sf@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall sf::RenderTarget::clear(class sf::Color const &)" (?clear@RenderTarget@sf@@QAEXABVColor@2@@Z) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (?draw@RenderTarget@sf@@QAEXABVDrawable@2@ABVRenderStates@2@@Z) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (??0RenderWindow@sf@@QAE@VVideoMode@1@ABVString@1@IABUContextSettings@1@@Z) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: virtual __thiscall sf::RenderWindow::~RenderWindow(void)" (??1RenderWindow@sf@@UAE@XZ) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall sf::Sprite::Sprite(class sf::Texture const &)" (??0Sprite@sf@@QAE@ABVTexture@1@@Z) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall sf::Sprite::setTextureRect(class sf::Rect<int> const &)" (?setTextureRect@Sprite@sf@@QAEXABV?$Rect@H@2@@Z) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall sf::Text::Text(void)" (??0Text@sf@@QAE@XZ) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall sf::Text::setString(class sf::String const &)" (?setString@Text@sf@@QAEXABVString@2@@Z) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall sf::Text::setFont(class sf::Font const &)" (?setFont@Text@sf@@QAEXABVFont@2@@Z) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall sf::Text::setCharacterSize(unsigned int)" (?setCharacterSize@Text@sf@@QAEXI@Z) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall sf::Text::setFillColor(class sf::Color const &)" (?setFillColor@Text@sf@@QAEXABVColor@2@@Z) в функции _main.
+Tetris.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall sf::Text::setOutlineColor(class sf::Color const &)" (?setOutlineColor@Text@sf@@QAEXABVColor@2@@Z) в функции _main.
+Tetris.obj : error LNK2001: неразрешенный внешний символ "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B).
+Tetris.obj : error LNK2001: неразрешенный внешний символ "public: static class sf::Color const sf::Color::Black" (?Black@Color@sf@@2V12@B).
+Tetris.obj : error LNK2001: неразрешенный внешний символ "public: static class sf::Color const sf::Color::White" (?White@Color@sf@@2V12@B).
+Tetris.obj : error LNK2001: неразрешенный внешний символ "public: static class sf::Color const sf::Color::Red" (?Red@Color@sf@@2V12@B).
+C:\Code\Tetris\Tetris\res\SFML-2.5.1\lib\sfml-graphics-d.lib : warning LNK4272: тип компьютера библиотеки "x64" конфликтует с типом целевого компьютера "x86"
+C:\Code\Tetris\Tetris\res\SFML-2.5.1\lib\sfml-window-d.lib : warning LNK4272: тип компьютера библиотеки "x64" конфликтует с типом целевого компьютера "x86"
+C:\Code\Tetris\Tetris\res\SFML-2.5.1\lib\sfml-audio-d.lib : warning LNK4272: тип компьютера библиотеки "x64" конфликтует с типом целевого компьютера "x86"
+C:\Code\Tetris\Tetris\res\SFML-2.5.1\lib\sfml-system-d.lib : warning LNK4272: тип компьютера библиотеки "x64" конфликтует с типом целевого компьютера "x86"
+C:\Code\Tetris\Debug\Tetris.exe : fatal error LNK1120: неразрешенных внешних элементов: 36

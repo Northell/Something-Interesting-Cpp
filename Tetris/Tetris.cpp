@@ -2,6 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include <time.h>
 #include <sstream>
+
 using namespace sf;
 const int M = 25;
 const int N = 10; //17
@@ -33,26 +34,26 @@ bool check()
 		return 1;
 	
 };
-int main()
+
+
+int main(int argc, char* argv)
 {
 	srand(time(0));
 	RenderWindow window(VideoMode(320, 480), "The Tetris GameNrt");
 
 	Texture t;
-	t.loadFromFile("images/Tetris.png");
+	t.loadFromFile("res/images/Tetris.png");
 	Texture Back;
-	Back.loadFromFile("images/BackGround.png");
+	Back.loadFromFile("res/images/BackGround.jpg");
+	
 	Sprite back(Back);
 	
 	Sprite s(t);
 	s.setTextureRect(IntRect(0, 0, 18, 18));
 
 	sf::Font font;
-	font.loadFromFile("Fonts/Fonts.TTF");
-
+	font.loadFromFile("res/Fonts/Fonts.TTF");
 	
-
-
 	int dx = 0; bool rotate = 0; int colorNum = 1; int score = 0;
 
 	sf::Text ScoreHead;
@@ -167,14 +168,13 @@ int main()
 			
 			window.draw(s);
 		}
+
 		std::ostringstream Score;
 		Score << score;
 		ScoreHead.setString("Score:\n " + Score.str());
 		window.draw(ScoreHead);
 		// Тут будут вызываться функции обновления и отрисовки объектов
 		// Отрисовка
-
-
 
 		// Game Over
 		
